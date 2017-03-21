@@ -1,3 +1,3 @@
-# Front End Testing
+# Front End testing
 
-This repo is a practice area for testing front end JavaScript code.
+The purpose of this assignment is to get practice writing tests for our Javascript code
