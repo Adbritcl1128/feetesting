@@ -21,7 +21,7 @@
 
       it('should handle one argument', function(){
         let result =  window.calc.sum( [15] );
-
+        
         expect( result ).to.be.a('number');
         expect( result ).to.be.equal( 15 );
       });
@@ -50,11 +50,11 @@
         expect( result ).to.equal(0);
       });
 
-      // it('should convert string to number to factorial', function(){
-      //   let result =  window.calc.factorial('5');
-      //   expect( result ).to.be.a('number').and.to.equal('120');
-      //
-      // });
+      it('should handle an argument that is not a number', function () {
+        let result = window.calc.factorial('a');
+        expect( result ).to.be.NaN;
+      });
+
 
 
     });
